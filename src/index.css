@@ -2,14 +2,81 @@ body {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-		sans-serif;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+	font-family: 'Poppins', sans-serif;
 }
 
 code {
-	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-		monospace;
+	font-family: 'Poppins', sans-serif;
+}
+
+.code_container {
+	width: 500px;
+	padding: 1rem;
+	border-radius: 1rem;
+	box-shadow: 0px 0px 10px #acacac;
+	margin: 2rem auto;
+	background-color: #ffffff;
+	text-align: center;
+}
+/* Heading Section */
+.heading h2 {
+	font-size: 1.5rem;
+	margin: 0;
+}
+.heading p {
+	margin: 0;
+	margin-bottom: 1rem;
+}
+
+form {
+	width: 90%;
+	margin: 0 auto;
+	margin-bottom: 2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+form .code_value {
+	width: 93%;
+	margin-bottom: 1rem;
+	padding: 1rem;
+	border-radius: 0.5rem;
+	border: 1px solid green;
+	outline: transparent;
+	font-family: inherit;
+	font-weight: 500;
+	color: green;
+}
+.code_button {
+	width: 100%;
+	margin-bottom: 1rem;
+	padding: 1rem;
+	border-radius: 0.5rem;
+	border: 1px solid green;
+	outline: transparent;
+	font-family: inherit;
+	font-weight: 500;
+	background-color: #009c00;
+	color: #ffffff;
+	transition: background-color 0.5s ease-in-out;
+}
+
+.code_button:hover {
+	background-color: #006800;
+}
+
+.code_preview {
+	width: 55%;
+	margin: 1rem auto;
+	border: 2px solid #006800;
+	padding: 1rem;
+	border-radius: 1rem;
+}
+.code_preview img {
+	width: 100%;
+}
+.code_preview button {
+	margin-top: 1rem;
 }
