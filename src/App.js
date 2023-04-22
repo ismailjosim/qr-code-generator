@@ -1,10 +1,11 @@
 import './App.css';
-import QRCode from './QRCode/QRCode';
+import QRCodeComp from './QRCode/QRCode';
+
 
 function App() {
   return (
     <>
-      <QRCode />
+      <QRCodeComp />
     </>
   );
 }
