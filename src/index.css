@@ -28,7 +28,7 @@ code {
 	margin-bottom: 1rem;
 }
 
-form {
+.form {
 	width: 90%;
 	margin: 0 auto;
 	margin-bottom: 2rem;
@@ -38,7 +38,7 @@ form {
 	align-items: center;
 }
 
-form .code_value {
+.form .code_value {
 	width: 93%;
 	margin-bottom: 1rem;
 	padding: 1rem;

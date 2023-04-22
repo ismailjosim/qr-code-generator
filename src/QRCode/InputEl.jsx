@@ -1,11 +1,10 @@
 import React from 'react';
 
-const InputEl = () => {
+const InputEl = ({ handleInput, InputValue }) => {
     return (
-        <form>
-            <input type="text" className='code_value' placeholder='Enter text or url' />
-            <button type='submit' className='code_button'>Generate QR Code</button>
-        </form>
+        <div className='form'>
+            <input onChange={ (e) => handleInput(e) } value={ InputValue } type="text" className='code_value' placeholder='Enter text or url' />
+        </div>
     );
 };
 
